@@ -9,8 +9,8 @@ YOLOv11
 ```bash
 pip install ultralytics 
 ```
-## Installation
-
+## Model architecture
+https://netron.app/
 ## Results
 
 ### Results of segmentaiton
