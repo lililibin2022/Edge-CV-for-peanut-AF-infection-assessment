@@ -2,10 +2,8 @@
 Assessment of A. flavus infection indices
 
 ## Requirements
-
+ultralytics
 Python 3.11
-YOLOv11
-
 ```bash
 from ultralytics import YOLO
 import torch
@@ -22,7 +20,15 @@ from torchviz import make_dot
 import netron
 from torchsummary import summary   
 
-pip install ultralytics 
+if __name__ == "__main__":
+    choice = input("Enter 'train' to train the model, 'analyze' to process images or "Visualize" to visualize instances with results: ").strip().lower()
+    if choice == 'train':
+        train_model()
+    elif choice == 'analyze':
+        analyze_images()
+    elif choice == 'Visualize':
+    visualize_instances_with_colors()
+
 ```
 ## Model architecture
 https://netron.app/
