@@ -3,7 +3,7 @@ Assessment of A. flavus infection indices
 
 ## Requirements
 
-Python 3.6+
+Python 3.11
 YOLOv11
 
 ```bash
