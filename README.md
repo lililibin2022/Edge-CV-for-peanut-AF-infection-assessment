@@ -27,7 +27,8 @@ if __name__ == "__main__":
     elif choice == 'analyze':
         analyze_images()
     elif choice == 'Visualize':
-    visualize_instances_with_colors()
+        visualize_instances_with_colors()
+
 
 ```
 ## Model architecture
