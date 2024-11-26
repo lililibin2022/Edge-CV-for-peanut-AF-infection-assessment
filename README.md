@@ -28,20 +28,6 @@ pip install ultralytics
 - Dump your videos in this folder
 - In `settings.py` edit the following lines.
 
-```python
-# video
-VIDEO_DIR = ROOT / 'videos' # After creating the videos folder
-
-### Detection on RTSP
-
-- Select the RTSP stream button
-- Enter the rtsp url inside the textbox and hit `Detect Objects` button
-
-### Detection on YouTube Video URL
-
-- Select the source as YouTube
-- Copy paste the url inside the text box.
-- The detection/segmentation task will start on the YouTube video url
 
 ## Acknowledgements
 
